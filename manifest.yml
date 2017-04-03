@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: front-bot
-  host: front-bot
+  name: front-chat
+  host: front-chat
   disk_quota: 1024M
