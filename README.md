@@ -1,17 +1,25 @@
-This README.md file is displayed on your project page. You should edit this 
-file to describe your project, including instructions for building and 
-running the project, pointers to the license under which you are making the 
-project available, and anything else you think would be useful for others to
-know.
+# Node.js Chatbot with Watson Conversation (self-learning proposal)
 
-We have created an empty license.txt file for you. Well, actually, it says,
-"<Replace this text with the license you've chosen for your project.>" We 
-recommend you edit this and include text for license terms under which you're
-making your code available. A good resource for open source licenses is the 
-[Open Source Initiative](http://opensource.org/).
+This application demonstrates a simple, reusable Node.js web application to explore watson conversaton capability to develop a chatbot for a self-learning proposal. This is a fork from another original source which I coulnd't find, so take care of reuse on future official projects.
 
-Be sure to update your project's profile with a short description and 
-eye-catching graphic.
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/rickubo/front-bot)
 
-Finally, consider defining some sprints and work items in Track & Plan to give 
-interested developers a sense of your cadence and upcoming enhancements.
+## Update the watson conversation credentials
+
+update conversation credentials and Workspace_id
+
+Open the app.js file and change "watson conversation" credentials with yours (username and password).
+
+At app.js change the workspace id within the conversation service workspace_id.
+
+https://front-chat.mybluemix.net/images/change_credentials.png
+
+## Run the app locally
+
+1. [Install Node.js][]
++ cd into this project's root directory
++ Run `npm install` to install the app's dependencies
++ Run `npm start` to start the app
++ Access the running app in a browser at <http://localhost:6001>
+
+[Install Node.js]: https://nodejs.org/en/download/
