@@ -12,7 +12,7 @@ Open the app.js file and change "watson conversation" credentials with yours (us
 
 At app.js change the workspace id within the conversation service workspace_id.
 
-https://front-chat.mybluemix.net/images/change_credentials.png
+<img src= "https://front-chat.mybluemix.net/images/change_credentials.png">
 
 ## Run the app locally
 
